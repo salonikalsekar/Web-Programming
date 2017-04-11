@@ -1,0 +1,40 @@
+<div class="row">
+  <div class="col-sm-12">
+    <form id="static-form" method="post">
+	  <div class="form-group">
+        <label for="text1">Enter a paragraph</label>
+        <textarea class="form-control" id="text1" name="text1" placeholder="Enter a paragraph" rows="2"> </textarea>
+      </div>
+
+	  <div class="form-group">
+        <label for="string1">Enter a string</label>
+        <input type="text" class="form-control" id="string1" name="string1" placeholder="Enter a string">
+      </div>
+
+      <div class="form-group">
+        <label for="numb1">Enter a number</label>
+        <input type="number" class="form-control" id="numb1" name="numb1" placeholder="Enter a number">
+      </div>
+
+      <div class="form-group">
+        <label for="numb2">Enter a number</label>
+        <input type="number" class="form-control" id="numb2" name="numb2" placeholder="Enter a number">
+      </div>
+      
+      <div class="form-group hidden" id="error-container">
+        <div class="alert alert-danger text-goes-here">
+        </div>
+      </div>
+      
+      <div class="form-group">
+        <button type="submit" class="btn btn-default">Submit</button>
+      </div>
+
+      <div class="form-group hidden" id="result-container">
+        <div class="alert alert-success text-goes-here">
+        </div>
+      </div>
+      
+    </form>
+  </div>
+</div>

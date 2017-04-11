@@ -1,0 +1,126 @@
+body {
+    background: #FEFEFE;
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    font-size: 15pt;
+}
+
+main {
+    max-width: 75%;
+    margin: auto;
+}
+
+header {
+    border-bottom: 1px solid #AFAFAF;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #333;
+    margin-bottom: 5px;
+}
+
+h1 {
+    
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.75rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+h4 {
+    font-size: 1.25rem;
+}
+
+h5 {
+      color: blue;
+      font-size: 1.15rem;
+      border-style: groove;
+      border-color: purple;
+}
+
+h6 {
+    color:yellow;
+    font-size: 1.05rem;
+}
+
+p {
+    
+    font-size: 1rem;
+    line-height: 2;
+}
+
+.post {
+    width: 75%;
+    border-bottom: 1px dashed #333;
+}
+
+.layout 
+{
+  color:pink;
+  padding: 25px 50px 75px 90px;
+  border-style: solid;
+  border-color: yellow;
+}
+.allEvents {
+   text-align: left;
+   text-align: justify;
+   letter-spacing: 2px;
+   line-height: 150%;
+   font-style:italic; 
+   color: blue;
+}
+.events h5{
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    border-radius: 16px;
+    color:magenta;
+    padding: 15px;    
+}
+.e
+{
+font-style:italic;
+font-size: 1.1rem;
+padding: 1px;
+}
+.allLocations {
+   text-align: left;
+   text-align: justify;
+   letter-spacing: 2px;
+   line-height: 150%;
+   font-style:bold; 
+   color: green;
+   border: 1px solid #c3c3c3;
+   flex-wrap: wrap;
+   align-content: center;
+}
+.l{
+font-style:bold;
+font-size: 1.0rem;
+padding:0px;
+
+}
+.location h5{
+    font-family: sans-serif;
+    font-style:bold;
+    color:yellow;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.allPeople {
+   border-radius: 4px;
+   text-align: justify;
+   line-height: 130%;
+   font-family: cursive;
+   color: green;
+}
+.people h2{
+    color: blue;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 80%;
+}
+
+
